@@ -8,6 +8,7 @@
         in <?php the_category(); ?>
     </i>
     <p><?php the_content(); ?></p>
+    <hr>
     <?php endwhile;
 endif;
 ?>
