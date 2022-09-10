@@ -13,3 +13,7 @@ function language_world_setup() {
     register_nav_menu('secondary', 'Secondary footer navigation');
 }
 add_action('init', 'language_world_setup');
+
+add_theme_support('custom-background');
+add_theme_support('custom-header');
+add_theme_support('post-thumbnails');

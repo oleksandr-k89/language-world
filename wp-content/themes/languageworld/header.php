@@ -16,3 +16,5 @@
     ?>
     <body <?php body_class($homeClasses); ?>>
     <?php wp_nav_menu(['theme_location' => 'main']); ?>
+    <img src="<?php header_image(); ?>" height="<?= get_custom_header()->height; ?>"
+         width="<?= get_custom_header()->width; ?>" alt="">
